@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 } */
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
 .text-primary{
     color: #fd6e0a;
 }
+/* Navbar related styles */
 .menu-content{
     display: flex;
-    justify-content: space-around;
-    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
     
 }
 .logo h3{
@@ -19,6 +25,7 @@
 }
 .menu > ul{
     display: flex;
+    align-items: center;
 }
 .menu li{
     list-style: none;
@@ -26,5 +33,33 @@
 }
 .menu a{
     text-decoration: none;
+    color: #474747;
 
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.btn-primary > a{
+    color:aliceblue;
+
+}
+
+/* banner related styles */
+
+header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.profile-pic{
+    width: 500px;
 }
